@@ -1,4 +1,4 @@
-/* This is an example CSS file, feel free to remove/edit it anytime */
+
 
 *{
   margin: 0;
@@ -42,16 +42,6 @@ body {
 }
 
 
-/* .container-fluid.hero {
-  margin-bottom: -10vh;
-  position: relative;
-} */
-
-/* .container-fluid.hero > .chili {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-} */
 
 .carousel-inner {
   display: flex;
@@ -59,7 +49,7 @@ body {
 }
 
 .car-img {
-  width: 60% !important;
+  max-height: 65vh !important;
 }
 /* end of hero section */
 
@@ -92,6 +82,7 @@ body {
   z-index:1;
   display: flex;
   align-items: center;
+  min-height: 50% !important;
 
 }
 
@@ -116,11 +107,6 @@ body {
 }
 
 
-/* Start of gallery */
-/* .gal-img {
-  height: 80%;
-} */
-
 
 /* Start of footer */
 
@@ -128,27 +114,26 @@ body {
   background-color: rgb(195, 194, 194);
 }
 
+/* Hover Effects */
 
-
-
-
-
-
-/* .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  text-align: center;
+.img-fluid:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
 }
 
-.footer a {
-  font-size: 14px;
-  font-weight: bold;
-  text-decoration: none;
+.btn:hover {
+  background-color: #ffc107; /* Change background color on hover */
+  transform: scale(1.1);
 }
 
-.footer span {
-  font-size: 14px;
-} */
+.icon:hover {
+  transform: scale(1.2); /* Remove grayscale effect on hover */
+}
+
+.menu-card:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2); /* Add box-shadow on hover */
+}
+
+a:hover {
+  transform: scale(1.1);
+}
