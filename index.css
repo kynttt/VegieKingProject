@@ -1,5 +1,140 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
-.footer {
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
+body {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.nav-link {
+  font-weight: bold !important;
+ 
+}
+
+.header {
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.hero-img {
+  background-color: green;
+  height:90vh;
+  width: 50%;
+}
+
+.banner {
+  height:90vh;
+}
+
+.hero-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(255, 157, 0) !important;
+}
+
+
+/* .container-fluid.hero {
+  margin-bottom: -10vh;
+  position: relative;
+} */
+
+/* .container-fluid.hero > .chili {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+}
+
+.car-img {
+  width: 60% !important;
+}
+/* end of hero section */
+
+.chill {
+  margin-top: -10vh;
+  position: relative;
+}
+
+/* start  of about section */
+.semicircle {
+  height:55vh;
+  width: 55vh; /* Set the width to match the height */
+  background-color: green;
+  border-radius: 50%;
+  position: relative;
+  left: -15%; /* Move it 25% to the left */
+  display: flex;
+  align-items: center;
+
+}
+
+.abt {
+  position: relative;
+ 
+}
+.abt-img {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index:1;
+  display: flex;
+  align-items: center;
+
+}
+
+.abt-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+/* End of about section  */
+
+.menu-card {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Start of gallery */
+/* .gal-img {
+  height: 80%;
+} */
+
+
+/* Start of footer */
+
+.foot {
+  background-color: rgb(195, 194, 194);
+}
+
+
+
+
+
+
+
+/* .footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -16,4 +151,4 @@
 
 .footer span {
   font-size: 14px;
-}
+} */
